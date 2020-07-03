@@ -6,4 +6,4 @@
 
 # linktoAPP
 
-https://covid19.mathdro.id/api
+https://atulraj151.github.io/Covid19Tracker/
