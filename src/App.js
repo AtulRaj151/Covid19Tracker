@@ -39,6 +39,7 @@ class App extends React.Component {
 
                <div className={styles.container}>
                      <img className={styles.image} src={coronaImage} alt="COVID-19" />
+                     <div>ReactApp:: Atul Raj</div>
                    {/* pass data to the card as props */}
                    <Cards  data={data}/>
                    <CountryPicker handleCountryChange={this.handleCountryChange} />
