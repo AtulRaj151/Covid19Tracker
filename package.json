@@ -1,6 +1,7 @@
 {
   "name": "covid19",
   "version": "0.1.0",
+  "homepage": "https://atulraj151.github.io/Covid19Tracker/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
@@ -11,6 +12,7 @@
     "chart.js": "^2.9.3",
     "chartjs": "^0.3.24",
     "classnames": "^2.2.6",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.9.0",
     "react-chartjs2": "^1.2.1",
@@ -22,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
