@@ -11,12 +11,21 @@
 
   .infected {
     border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+    background-color: rgb(190, 102, 102);
   }
   
   .recovered{
     border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+    background-color: lightcyan;
   }
   
   .deaths{
     border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+    background-color: lightslategray;
+  }
+
+  @media only screen and (max-width: 770px) {
+    .card {
+      margin: 2% 0 !important;
+    }
   }
