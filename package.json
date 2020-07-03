@@ -1,7 +1,7 @@
 {
   "name": "covid19",
   "version": "0.1.0",
-  "homepage": "https://atulraj151.github.io/Covid19Tracker/",
+  "homepage": "https://atulraj151.github.io/Covid19Tracker",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
