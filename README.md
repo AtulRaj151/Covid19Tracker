@@ -1,3 +1,4 @@
+## A React Project
 # Covid19Tracker
 - Tracks the covid19 patient for all the countries
 
@@ -6,4 +7,4 @@
 
 # linktoAPP
 
-https://atulraj151.github.io/Covid19Tracker/
+https://atulraj151.github.io/Covid19Tracker
